@@ -18,7 +18,7 @@ ul{
   display: flex;
   justify-content: space-evenly;
 }
-.fav,.home,.recipes{
+.fav,.home,.recipes,.about{
   padding: 10px 20px;
   font-size: 18px;
   border: none;
@@ -33,6 +33,9 @@ ul{
   box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
 } 
 .recipes:hover{
+  box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
+}
+.about:hover{
   box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
 }
 .sidebar{
