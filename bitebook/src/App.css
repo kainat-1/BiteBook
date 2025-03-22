@@ -1,24 +1,28 @@
-body{
-margin: 0;
-background-color: rgb(62, 48, 48);
+body {
+  margin: 0;
+  background-color: rgb(243, 146, 124);
+  color: black;
 }
-.logo{
+.logo {
   width: 150px;
   text-align: center;
   border: 2px black solid;
   border-radius: 20px;
 }
-ul{
+ul {
   list-style: none;
 }
-.logo-div{
+.logo-div {
   text-align: center;
 }
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-evenly;
 }
-.fav,.home,.recipes,.about{
+.fav,
+.home,
+.recipes,
+.about {
   padding: 10px 20px;
   font-size: 18px;
   border: none;
@@ -26,35 +30,31 @@ ul{
   cursor: pointer;
   transition: box-shadow 0.3s ease-in-out;
 }
-.fav:hover{
-  box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
+.fav:hover {
+  box-shadow: 0 0 15px rgba(9, 1, 0, 0.8);
 }
-.home:hover{
-  box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
-} 
-.recipes:hover{
-  box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
+.home:hover {
+  box-shadow: 0 0 15px rgba(9, 1, 0, 0.8);
 }
-.about:hover{
-  box-shadow: 0 0 15px rgba(215, 202, 200, 0.8);
+.recipes:hover {
+  box-shadow: 0 0 15px rgba(9, 1, 0, 0.8);
 }
-.sidebar{
+.about:hover {
+  box-shadow: 0 0 15px rgba(9, 1, 0, 0.8);
+}
+.sidebar {
   display: none;
 }
-h1{
+h1 {
   text-align: center;
 }
-.footer-text{
+.footer-text {
   text-align: center;
   text-shadow: 0 0 10px #c3b0a2, 0 0 20px #c3b0a2, 0 0 30px #c3b0a2;
-  
 }
-.github-link{
-text-align: center;
+.github-link {
+  text-align: center;
 }
-
-
-
 
 /* #root {
   max-width: 1280px;
